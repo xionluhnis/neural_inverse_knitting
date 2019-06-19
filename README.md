@@ -66,9 +66,11 @@ where
 This produces png outputs with same file names.
 
 **Input**
+
 ![input](images/Cable2_046_16_0_back.jpg)
 
 **Output**
+
 ![output](images/Cable2_046_16_0_back-prog.png)
 
 ### Scale detection
@@ -112,9 +114,11 @@ where
 * `myprog.png` is a program output (from `infer.sh`), or a list of these
 
 **Input**
+
 ![input](images/Cable2_046_16_0_back-prog.png)
 
 **Output**
+
 ![output](images/Cable2_046_16_0_back-rend.png)
 
 ### Visualizing programs
@@ -128,9 +132,11 @@ python3 ./test/visualize.py myprog.png [prog2.png ...]
 will generate files `${file}_viz.png` using the same symbols and colors as shown in the paper.
 
 **Input**
+
 ![input](images/Cable2_046_16_0_back-prog.png)
 
 **Output**
+
 ![output](images/Cable2_046_16_0_back-viz.png)
 
 ## Training from scratch
