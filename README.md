@@ -1,6 +1,6 @@
 # Inverse Neural Knitting
 
-![Teaser](teaser.jpg)
+![Teaser](images/teaser.jpg)
 
 This repository contains code for the paper **"Neural Inverse Knitting: From Images to Manufacturing Instructions"** (http://proceedings.mlr.press/v97/kaspar19a.html).
 You can browse the dataset, results and more on the [project page](http://deepknitting.csail.mit.edu).
@@ -65,6 +65,12 @@ where
 
 This produces png outputs with same file names.
 
+**Input**
+![input](images/Cable2_046_16_0_back.jpg)
+
+**Output**
+![output](images/Cable2_046_16_0_back-prog.png)
+
 ### Scale detection
 
 At inference, you can specify the `-v` argument to output the average maximum softmax value of the output, which we use in the supplementary to automatically detect the best scale.
@@ -105,6 +111,12 @@ where
 * `CUDA_VISIBLE_DEVICES=0` is to select the first GPU only
 * `myprog.png` is a program output (from `infer.sh`), or a list of these
 
+**Input**
+![input](images/Cable2_046_16_0_back-prog.png)
+
+**Output**
+![output](images/Cable2_046_16_0_back-rend.png)
+
 ### Visualizing programs
 
 We provide a visualization script to make program outputs more easily interpretable.
@@ -115,6 +127,11 @@ python3 ./test/visualize.py myprog.png [prog2.png ...]
 
 will generate files `${file}_viz.png` using the same symbols and colors as shown in the paper.
 
+**Input**
+![input](images/Cable2_046_16_0_back-prog.png)
+
+**Output**
+![output](images/Cable2_046_16_0_back-viz.png)
 
 ## Training from scratch
 
