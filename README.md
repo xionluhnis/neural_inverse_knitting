@@ -1,5 +1,7 @@
 # Inverse Neural Knitting
 
+![Teaser](teaser.jpg)
+
 This repository contains code for the paper **"Neural Inverse Knitting: From Images to Manufacturing Instructions"** (http://proceedings.mlr.press/v97/kaspar19a.html).
 You can browse the dataset, results and more on the [project page](http://deepknitting.csail.mit.edu).
 
