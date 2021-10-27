@@ -2,7 +2,7 @@ absl-py==0.6.0
 astor==0.7.1
 cloudpickle==0.6.1
 cycler==0.10.0
-dask==0.19.4
+dask==2021.10.0
 decorator==4.3.0
 gast==0.2.0
 grpcio==1.16.0
